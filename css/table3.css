@@ -59,29 +59,25 @@ table > tbody {
 th, td, tr {
     padding: 10px;
     border: 1px solid rgb(236, 235, 235);
-    background-color: #FFFFFF;
-}
-th {
-    background-color: #0f93e5;
+    background-color: #08ebeb;
+    white-space: nowrap;
 }
 
 
+
 th {
+    background-color: rgb(230, 230, 21);
     padding: 10px;
     text-align: center;
+    white-space: nowrap;
 }
 
 .row {
-    color: blue;
     font-size: 15px;
+    background-color: rgb(21, 202, 230);
 }
 
-caption {
-    margin: 14px 0px;
-    caption-side: bottom;
-    font-size: 14px;
-  }
-
-  .products {
-    background-color: rgb(21, 202, 230);
-  }
+img {
+    display: inline-block;
+    width: 30%;
+}

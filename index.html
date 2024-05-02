@@ -14,10 +14,10 @@
                     <a href="#table1">Table 1</a>
                 </li>
                 <li>
-                    <a href="#table2">Table 2</a>
+                    <a href="pages/table2.html">Table 2</a>
                 </li>
                 <li>
-                    <a href="#table1">Table 3</a>
+                    <a href="pages/table3.html">Table 3</a>
                 </li>
             </ul>
         </nav>
@@ -26,20 +26,19 @@
     <main class="container">
 
         <section> 
-            <caption>Fig: Semester 2 Course Schedule</caption>
-            <h1>Semester II Schedule</h1>
-            <table>
+            <h1 id="semester-2-schedule">Semester II Schedule</h1>
+            <table aria-labelledby="semester-2-schedule">
                 <thead>
                     <tr>
-                        <th>Course</th>
-                        <th colspan="2">Time</th>
-                        <th>Room</th>
-                        <th>Day</th>
+                        <th id="course" scope="col">Course</th>
+                        <th colspan="2" id="time" scope="col">Time</th>
+                        <th id="room" scope="col">Room</th>
+                        <th id="day" scope="col">Day</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td rowspan="2" class="row">English II</td>
+                        <td rowspan="2" id="english" class="row">English II</td>
                         <td>09:00</td>
                         <td>11:00</td>
                         <td>L2201</td>
@@ -54,7 +53,7 @@
                     </tr>
 
                     <tr>
-                        <td class="row">Geograpgy</td>
+                        <td id="geography" class="row">Geograpgy</td>
                         <td>11:00</td>
                         <td>12:45</td>
                         <td>G107</td>
@@ -63,14 +62,13 @@
                     </tr>
 
                     <tr>
-                        <td class="row">Biology</td>
+                        <td id="biology" class="row">Biology</td>
                         <td>09:00</td>
                         <td>11:00</td>
                         <td>B302</td>
                         <td>Friday</td>
                     </tr>
                 </tbody>
-                
             </table>
         </section>
 

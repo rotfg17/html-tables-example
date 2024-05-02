@@ -59,10 +59,10 @@ table > tbody {
 th, td, tr {
     padding: 10px;
     border: 1px solid rgb(236, 235, 235);
-    background-color: #FFFFFF;
+    background-color: #08ebeb;
 }
 th {
-    background-color: #0f93e5;
+    background-color: rgb(21, 24, 230);
 }
 
 
@@ -72,16 +72,12 @@ th {
 }
 
 .row {
-    color: blue;
     font-size: 15px;
+    background-color: rgb(21, 202, 230);
 }
 
 caption {
     margin: 14px 0px;
     caption-side: bottom;
     font-size: 14px;
-  }
-
-  .products {
-    background-color: rgb(21, 202, 230);
   }
